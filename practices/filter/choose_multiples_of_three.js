@@ -9,6 +9,7 @@ function choose_multiples_of_three(collection) {
       result.push(collection[i]);
     }
   }
+
   return result;
 }
 

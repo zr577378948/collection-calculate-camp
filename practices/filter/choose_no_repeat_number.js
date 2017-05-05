@@ -3,9 +3,9 @@
 function choose_no_repeat_number(collection) {
 
   var result = [];
-  var array=[];
+  var array = [];
 
-return Array.from(new Set(array.concat(collection)));
+  return Array.from(new Set(array.concat(collection)));
 
 }
 
