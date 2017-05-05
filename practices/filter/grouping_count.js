@@ -2,7 +2,9 @@
 
 function grouping_count(collection) {
 
-  var result=[];
+  var result={};
+
+  for(var i in co)
 
 }
 
