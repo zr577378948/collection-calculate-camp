@@ -10,4 +10,5 @@ describe('map_to_four_multiples_add_one', function() {
     var result = map_to_four_multiples_add_one(collection_a);
     expect(result).toEqual(collection_b);
   });
+
 });
