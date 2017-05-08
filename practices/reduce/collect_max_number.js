@@ -2,12 +2,14 @@
 
 function collect_max_number(collection) {
 
-  var result = [];
+  var resultArray = collection.sort(sortNumber);
 
-  for (var i in collection) {
-    result = collection.sort(i);
-  }
-  return result[collection.length - 1];
+  return resultArray[collection.length - 1];
+}
+
+function sortNumber(a, b) {
+
+  return (a - b);
 }
 
 module.exports = collect_max_number;

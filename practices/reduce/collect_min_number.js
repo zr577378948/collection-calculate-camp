@@ -5,7 +5,7 @@ function collect_min_number(collection) {
   var result=[];
 
   for(var i in collection){
-    result=collection.sort(i);
+    result=collection.sort();
   }
   return result[0];
 }
