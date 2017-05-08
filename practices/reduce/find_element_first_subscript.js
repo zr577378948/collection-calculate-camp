@@ -6,7 +6,7 @@ function calculate_elements_sum(collection, element) {
 
   for (var i in collection) {
     if (element === collection[i]) {
-      result = parseInt(i);//不明白
+      result = parseInt(i);
       break;
     }
   }

@@ -6,10 +6,10 @@ function calculate_elements_sum(collection, element) {
 
   for (var i in collection) {
     if (element === collection[i]) {
-      result.push(parseInt(i));//不明白
+      result = parseInt(i);
     }
   }
-  return result[result.length - 1];
-}
 
+  return result;
+}
 module.exports = calculate_elements_sum;

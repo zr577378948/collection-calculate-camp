@@ -6,6 +6,7 @@ function calculate_elements_sum(collection) {
   for (var i in collection) {
     result += collection[i];
   }
+
   return result;
 }
 
